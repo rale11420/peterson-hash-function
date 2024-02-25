@@ -14,7 +14,7 @@ const main = () => {
         }
     }
 
-    fs.writeFileSync('Result.json', JSON.stringify(result, 0, 4));
+    fs.writeFileSync('Result3.json', JSON.stringify(result, 0, 4));
 }
 
 main();
